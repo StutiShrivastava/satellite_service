@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  webapp:
+    image: stutishrivastava/solenixwebapp:latest
+    ports:
+      - "3000:3000"
+    depends_on:
+      - service
+
+  service:
+    image: stutishrivastava/solenixservice:latest
+    ports:
+      - "8282:8282"

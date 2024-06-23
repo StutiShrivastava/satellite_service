@@ -1,0 +1,7 @@
+2024-06-23 14:22:49,893 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.solenix.test.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-23 14:22:50,047 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.solenix.Application for test class com.solenix.test.ApplicationTests
+2024-06-23 14:23:51,133 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.solenix.test.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-06-23 14:23:51,256 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.solenix.Application for test class com.solenix.test.ApplicationTests
+2024-06-23 16:00:27,185 [main] INFO  com.solenix.Application - Started SpringBoot Application!!!
+2024-06-23 17:42:41,924 [main] INFO  com.solenix.Application - Started SpringBoot Application!!!
+2024-06-23 20:24:57,577 [main] INFO  com.solenix.Application - Started SpringBoot Application!!!

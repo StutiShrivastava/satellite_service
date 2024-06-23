@@ -1,0 +1,492 @@
+2024-06-23 17:23:14,072 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 26468 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:23:14,074 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:23:15,107 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:23:15,196 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:23:16,125 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:23:16,136 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:23:16,138 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:23:16,139 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:23:16,228 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:23:16,228 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2129 ms
+2024-06-23 17:23:16,719 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:23:17,043 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:23:17,116 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:23:17,169 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:23:17,474 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:23:17,529 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:23:18,586 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:23:18,643 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:23:19,443 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:23:20,288 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:23:20,373 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:23:20,406 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 60900 (http) with context path ''
+2024-06-23 17:23:20,431 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.627 seconds (process running for 8.042)
+2024-06-23 17:23:20,444 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:23:20.443687500
+2024-06-23 17:23:20,457 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:23:21,123 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 17:23:21 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 17:23:21,246 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:23:21,247 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:23:21,248 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 17:23:21,323 [http-nio-auto-1-exec-1] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 17:23:22,326 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:23:22,331 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:23:22.331860400
+2024-06-23 17:23:22,354 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:35:16,304 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 6028 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:35:16,306 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:35:17,451 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:35:17,542 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:35:18,541 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:35:18,554 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:35:18,557 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:35:18,557 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:35:18,648 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:35:18,648 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2310 ms
+2024-06-23 17:35:19,190 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:35:19,438 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:35:19,519 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:35:19,565 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:35:19,904 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:35:19,973 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:35:20,994 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:35:21,050 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:35:21,818 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:35:22,622 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:35:22,711 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:35:22,744 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 61733 (http) with context path ''
+2024-06-23 17:35:22,768 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.727 seconds (process running for 8.184)
+2024-06-23 17:35:22,775 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:35:22.775471700
+2024-06-23 17:35:22,795 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:35:23,388 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 17:35:23 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 17:35:23,513 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:35:23,513 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:35:23,515 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 17:35:23,631 [http-nio-auto-1-exec-1] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 17:35:24,555 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:35:24,560 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:35:24.560144200
+2024-06-23 17:35:24,581 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:36:27,646 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 19188 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:36:27,648 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:36:28,708 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:36:28,786 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 68 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:36:29,752 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:36:29,763 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:36:29,765 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:36:29,766 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:36:29,858 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:36:29,859 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2183 ms
+2024-06-23 17:36:30,429 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:36:30,688 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:36:30,755 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:36:30,799 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:36:31,079 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:36:31,138 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:36:32,103 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:36:32,152 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:36:32,876 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:36:33,647 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:36:33,721 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:36:33,750 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 61792 (http) with context path ''
+2024-06-23 17:36:33,776 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.442 seconds (process running for 7.876)
+2024-06-23 17:36:33,788 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:36:33.788196900
+2024-06-23 17:36:33,799 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:36:34,482 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 17:36:34 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 17:36:34,621 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:36:34,622 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:36:34,624 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-23 17:36:34,732 [http-nio-auto-1-exec-1] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 17:36:35,313 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:36:35,322 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:36:35.322882900
+2024-06-23 17:36:35,345 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:38:09,940 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 4212 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:38:09,941 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:38:11,001 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:38:11,079 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:38:12,044 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:38:12,059 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:38:12,063 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:38:12,063 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:38:12,145 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:38:12,146 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2178 ms
+2024-06-23 17:38:12,629 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:38:12,888 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:38:12,952 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:38:12,998 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:38:13,337 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:38:13,398 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:38:14,359 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:38:14,436 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:38:15,183 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:38:16,004 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:38:16,079 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:38:16,110 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 61873 (http) with context path ''
+2024-06-23 17:38:16,128 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.475 seconds (process running for 7.877)
+2024-06-23 17:38:16,137 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:38:16.137849300
+2024-06-23 17:38:16,158 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:38:17,033 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:38:17,033 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:38:17,036 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 17:38:17,147 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 17:38:17,918 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:38:17,924 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:38:17.923836600
+2024-06-23 17:38:17,944 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:39:10,661 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 6112 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:39:10,662 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:39:11,744 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:39:11,833 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 77 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:39:12,722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:39:12,733 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:39:12,736 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:39:12,736 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:39:12,835 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:39:12,835 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2150 ms
+2024-06-23 17:39:13,394 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:39:13,626 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:39:13,704 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:39:13,748 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:39:14,017 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:39:14,065 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:39:15,051 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:39:15,107 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:39:15,949 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:39:16,713 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:39:16,803 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:39:16,838 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 61931 (http) with context path ''
+2024-06-23 17:39:16,863 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.464 seconds (process running for 7.914)
+2024-06-23 17:39:16,873 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:39:16.873745400
+2024-06-23 17:39:16,904 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:39:17,890 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:39:17,891 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:39:17,893 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-23 17:39:17,954 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 17:39:18,556 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:39:18,561 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:39:18.561392600
+2024-06-23 17:39:18,581 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:39:39,059 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 30036 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:39:39,061 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:39:40,068 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:39:40,143 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:39:41,148 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:39:41,158 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:39:41,160 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:39:41,160 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:39:41,245 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:39:41,245 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2159 ms
+2024-06-23 17:39:41,787 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:39:42,056 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:39:42,121 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:39:42,166 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:39:42,433 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:39:42,492 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:39:43,478 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:39:43,536 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:39:44,304 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:39:45,088 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:39:45,168 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:39:45,196 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 61958 (http) with context path ''
+2024-06-23 17:39:45,220 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.449 seconds (process running for 7.941)
+2024-06-23 17:39:45,226 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:39:45.226800500
+2024-06-23 17:39:45,238 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:39:46,113 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:39:46,114 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:39:46,115 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 17:39:46,177 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 17:39:46,919 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:39:46,925 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:39:46.925379200
+2024-06-23 17:39:46,960 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:40:00,351 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 31716 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:40:00,353 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:40:01,647 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:40:01,757 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:40:03,109 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:40:03,126 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:40:03,129 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:40:03,130 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:40:03,245 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:40:03,246 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2859 ms
+2024-06-23 17:40:03,894 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:40:04,187 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:40:04,297 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:40:04,357 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:40:04,751 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:40:04,819 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:40:06,058 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:40:06,113 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:40:06,939 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:40:07,876 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:40:07,982 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:40:08,018 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 61993 (http) with context path ''
+2024-06-23 17:40:08,047 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 7.969 seconds (process running for 9.645)
+2024-06-23 17:40:08,054 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:40:08.054936
+2024-06-23 17:40:08,067 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:40:09,103 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:40:09,104 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:40:09,105 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 17:40:09,176 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 17:40:09,282 [http-nio-auto-1-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events for satellite: STARLINK-31654
+2024-06-23 17:40:09,315 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 17:40:09 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 17:40:09,350 [http-nio-auto-1-exec-3] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 17:40:09,370 [http-nio-auto-1-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:40:09,393 [http-nio-auto-1-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 17:40:09,876 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:40:09,880 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:40:09.879587600
+2024-06-23 17:40:09,908 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:42:42,444 [main] INFO  com.solenix.Application - Starting Application using Java 17.0.9 with PID 12368 (C:\Users\a5143522\SolenixWorkspace\SolenixService\target\classes started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:42:42,445 [main] INFO  com.solenix.Application - The following 1 profile is active: "dev"
+2024-06-23 17:42:43,522 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:42:43,591 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:42:44,477 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8282 (http)
+2024-06-23 17:42:44,498 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8282"]
+2024-06-23 17:42:44,501 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:42:44,502 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:42:44,586 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:42:44,586 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2082 ms
+2024-06-23 17:42:45,068 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:42:45,345 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:42:45,410 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:42:45,450 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:42:45,700 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:42:45,750 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:42:46,860 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:42:46,923 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:42:47,636 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:42:48,377 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:42:48,447 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8282"]
+2024-06-23 17:42:48,475 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8282 (http) with context path ''
+2024-06-23 17:42:48,493 [main] INFO  com.solenix.Application - Started Application in 6.498 seconds (process running for 7.3)
+2024-06-23 17:42:48,505 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:42:48.505669600
+2024-06-23 17:42:48,513 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:42:50,226 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:42:50,236 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:42:50.235339700
+2024-06-23 17:43:07,723 [http-nio-8282-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:43:07,723 [http-nio-8282-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:43:07,726 [http-nio-8282-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-23 17:43:07,760 [http-nio-8282-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:17,192 [http-nio-8282-exec-3] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:25,430 [http-nio-8282-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 17:43:25,591 [http-nio-8282-exec-6] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 17:43:26,248 [http-nio-8282-exec-7] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:26,259 [http-nio-8282-exec-8] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:29,691 [http-nio-8282-exec-9] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 17:43:29,754 [http-nio-8282-exec-10] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 17:43:38,535 [http-nio-8282-exec-2] INFO  c.s.c.SatelliteEventController - Received request to Create a new event.
+2024-06-23 17:43:38,536 [http-nio-8282-exec-2] INFO  c.s.service.impl.EventServiceImpl - Processing LotSplit Request ####
+2024-06-23 17:43:38,541 [http-nio-8282-exec-2] INFO  c.s.service.impl.EventServiceImpl - Event create successfully !!!!
+2024-06-23 17:43:38,543 [http-nio-8282-exec-2] INFO  c.s.c.SatelliteEventController - Satellite creation completed successfully!!!
+2024-06-23 17:43:40,493 [http-nio-8282-exec-3] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:40,516 [http-nio-8282-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:42,175 [http-nio-8282-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: 2024-114F
+2024-06-23 17:43:55,061 [http-nio-8282-exec-6] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:43:55,071 [http-nio-8282-exec-7] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:44:10,968 [http-nio-8282-exec-9] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:44:10,980 [http-nio-8282-exec-10] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:46:34,823 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 26404 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 17:46:34,825 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 17:46:35,873 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 17:46:35,954 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-06-23 17:46:36,922 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 17:46:36,936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:46:36,939 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 17:46:36,940 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 17:46:37,002 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 17:46:37,002 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2145 ms
+2024-06-23 17:46:37,522 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 17:46:37,828 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 17:46:37,912 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 17:46:37,974 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 17:46:38,312 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 17:46:38,360 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 17:46:39,426 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 17:46:39,494 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:46:40,390 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 17:46:41,134 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 17:46:41,213 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 17:46:41,245 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 62400 (http) with context path ''
+2024-06-23 17:46:41,265 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.738 seconds (process running for 8.164)
+2024-06-23 17:46:41,277 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:46:41.277779500
+2024-06-23 17:46:41,295 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 17:46:42,120 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 17:46:42,120 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 17:46:42,121 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 17:46:42,178 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 17:46:42,284 [http-nio-auto-1-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events for satellite: STARLINK-31654
+2024-06-23 17:46:42,314 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 17:46:42 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 17:46:42,336 [http-nio-auto-1-exec-3] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 17:46:42,350 [http-nio-auto-1-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 17:46:42,368 [http-nio-auto-1-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 17:46:43,244 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 17:46:43,246 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T17:46:43.246904200
+2024-06-23 17:46:43,294 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 17:47:18,150 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 18:16:47,860 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 10820 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 18:16:47,863 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 18:16:49,867 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 18:16:49,971 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 3 JPA repository interfaces.
+2024-06-23 18:16:51,948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 18:16:51,976 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 18:16:51,982 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 18:16:51,983 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 18:16:52,167 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 18:16:52,169 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4271 ms
+2024-06-23 18:16:53,310 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 18:16:53,977 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 18:16:54,164 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 18:16:54,370 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 18:16:55,094 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 18:16:55,218 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 18:16:57,141 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 18:16:57,270 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 18:16:59,133 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 18:17:01,079 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 18:17:01,272 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 18:17:01,364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 49816 (http) with context path ''
+2024-06-23 18:17:01,400 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 13.994 seconds (process running for 16.989)
+2024-06-23 18:17:01,418 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T18:17:01.417535500
+2024-06-23 18:17:01,438 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 18:17:03,326 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 18:17:03,327 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 18:17:03,329 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-23 18:17:03,476 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 18:17:03,649 [http-nio-auto-1-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events for satellite: STARLINK-31654
+2024-06-23 18:17:03,739 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 18:17:03 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 18:17:03,829 [http-nio-auto-1-exec-3] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 18:17:03,859 [http-nio-auto-1-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 18:17:03,899 [http-nio-auto-1-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 18:17:05,028 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 18:17:05,034 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T18:17:05.034109600
+2024-06-23 18:17:05,083 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 20:24:58,287 [main] INFO  com.solenix.Application - Starting Application using Java 17.0.9 with PID 16556 (C:\Users\a5143522\SolenixWorkspace\SolenixService\target\classes started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 20:24:58,290 [main] INFO  com.solenix.Application - The following 1 profile is active: "dev"
+2024-06-23 20:24:59,973 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 20:25:00,088 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 3 JPA repository interfaces.
+2024-06-23 20:25:01,517 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8282 (http)
+2024-06-23 20:25:01,545 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8282"]
+2024-06-23 20:25:01,559 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 20:25:01,559 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 20:25:01,670 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 20:25:01,670 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3309 ms
+2024-06-23 20:25:02,757 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 20:25:03,229 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 20:25:03,384 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 20:25:03,466 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 20:25:03,902 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 20:25:04,024 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 20:25:05,731 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 20:25:05,812 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 20:25:07,670 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 20:25:09,376 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 20:25:09,521 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8282"]
+2024-06-23 20:25:09,573 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8282 (http) with context path ''
+2024-06-23 20:25:09,613 [main] INFO  com.solenix.Application - Started Application in 11.891 seconds (process running for 13.141)
+2024-06-23 20:25:09,633 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T20:25:09.632558800
+2024-06-23 20:25:09,651 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 20:25:12,204 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 20:25:12,214 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T20:25:12.213572700
+2024-06-23 20:25:17,732 [http-nio-8282-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 20:25:17,732 [http-nio-8282-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 20:25:17,733 [http-nio-8282-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 20:25:17,780 [http-nio-8282-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:25:17,986 [http-nio-8282-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:25:29,380 [http-nio-8282-exec-4] INFO  c.s.c.SatelliteEventController - Received request to Create a new event.
+2024-06-23 20:25:29,381 [http-nio-8282-exec-4] INFO  c.s.service.impl.EventServiceImpl - Processing LotSplit Request ####
+2024-06-23 20:25:29,385 [http-nio-8282-exec-4] INFO  c.s.service.impl.EventServiceImpl - Event create successfully !!!!
+2024-06-23 20:25:29,386 [http-nio-8282-exec-4] INFO  c.s.c.SatelliteEventController - Satellite creation completed successfully!!!
+2024-06-23 20:25:31,274 [http-nio-8282-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:25:31,302 [http-nio-8282-exec-6] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:25:33,269 [http-nio-8282-exec-7] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:25:33,350 [http-nio-8282-exec-8] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:25:43,152 [http-nio-8282-exec-9] INFO  c.s.c.SatelliteEventController - Received request to Create a new event.
+2024-06-23 20:25:43,153 [http-nio-8282-exec-9] INFO  c.s.service.impl.EventServiceImpl - Processing LotSplit Request ####
+2024-06-23 20:25:43,159 [http-nio-8282-exec-9] INFO  c.s.service.impl.EventServiceImpl - Event create successfully !!!!
+2024-06-23 20:25:43,160 [http-nio-8282-exec-9] INFO  c.s.c.SatelliteEventController - Satellite creation completed successfully!!!
+2024-06-23 20:25:44,989 [http-nio-8282-exec-10] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:25:45,002 [http-nio-8282-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:25:52,974 [http-nio-8282-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:25:52,987 [http-nio-8282-exec-3] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:25:56,929 [http-nio-8282-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:25:56,974 [http-nio-8282-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:26:06,592 [http-nio-8282-exec-6] INFO  c.s.c.SatelliteEventController - Received request to Create a new event.
+2024-06-23 20:26:06,594 [http-nio-8282-exec-6] INFO  c.s.service.impl.EventServiceImpl - Processing LotSplit Request ####
+2024-06-23 20:26:06,601 [http-nio-8282-exec-6] INFO  c.s.service.impl.EventServiceImpl - Event create successfully !!!!
+2024-06-23 20:26:06,603 [http-nio-8282-exec-6] INFO  c.s.c.SatelliteEventController - Satellite creation completed successfully!!!
+2024-06-23 20:26:08,315 [http-nio-8282-exec-7] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:26:08,324 [http-nio-8282-exec-8] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:26:13,784 [http-nio-8282-exec-9] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: 2024-110C
+2024-06-23 20:26:16,868 [http-nio-8282-exec-10] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:26:16,893 [http-nio-8282-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:26:19,572 [http-nio-8282-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:26:19,581 [http-nio-8282-exec-3] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:27:01,858 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 20:28:32,356 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 23580 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 20:28:32,359 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 20:28:33,528 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 20:28:33,623 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2024-06-23 20:28:34,572 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 20:28:34,585 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 20:28:34,587 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 20:28:34,587 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 20:28:34,674 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 20:28:34,675 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2291 ms
+2024-06-23 20:28:35,240 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 20:28:35,492 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 20:28:35,564 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 20:28:35,612 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 20:28:35,897 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 20:28:35,950 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 20:28:37,005 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 20:28:37,062 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 20:28:37,867 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 20:28:38,788 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 20:28:38,901 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 20:28:38,948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 62980 (http) with context path ''
+2024-06-23 20:28:38,975 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 6.957 seconds (process running for 8.5)
+2024-06-23 20:28:38,987 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T20:28:38.987883800
+2024-06-23 20:28:39,003 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 20:28:40,141 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 20:28:40,142 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 20:28:40,144 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-06-23 20:28:40,211 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 20:28:40,333 [http-nio-auto-1-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events for satellite: STARLINK-31654
+2024-06-23 20:28:40,371 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 20:28:40 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 20:28:40,409 [http-nio-auto-1-exec-3] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 20:28:40,427 [http-nio-auto-1-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:28:40,450 [http-nio-auto-1-exec-5] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:28:41,641 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 20:28:41,645 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T20:28:41.645115200
+2024-06-23 20:28:41,684 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 20:40:12,399 [main] INFO  com.solenix.test.ApplicationTests - Starting ApplicationTests using Java 17.0.9 with PID 16032 (started by a5143522 in C:\Users\a5143522\SolenixWorkspace\SolenixService)
+2024-06-23 20:40:12,402 [main] INFO  com.solenix.test.ApplicationTests - The following 1 profile is active: "dev"
+2024-06-23 20:40:15,543 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-23 20:40:15,676 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 112 ms. Found 3 JPA repository interfaces.
+2024-06-23 20:40:17,906 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 0 (http)
+2024-06-23 20:40:17,928 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 20:40:17,934 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-06-23 20:40:17,934 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-06-23 20:40:18,112 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-06-23 20:40:18,113 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5675 ms
+2024-06-23 20:40:19,162 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-06-23 20:40:19,748 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-23 20:40:19,965 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-06-23 20:40:20,074 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-06-23 20:40:20,816 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-23 20:40:20,963 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-23 20:40:25,486 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-23 20:40:25,717 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-23 20:40:28,241 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-23 20:40:30,262 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoint(s) beneath base path '/actuator'
+2024-06-23 20:40:30,593 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2024-06-23 20:40:30,933 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 52341 (http) with context path ''
+2024-06-23 20:40:30,981 [main] INFO  com.solenix.test.ApplicationTests - Started ApplicationTests in 19.1 seconds (process running for 21.576)
+2024-06-23 20:40:31,074 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Starting updateTLEInformation Job!!!! Timestamp : 2024-06-23T20:40:31.074804600
+2024-06-23 20:40:31,115 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Started Satellite information Update Scheduler ####
+2024-06-23 20:40:34,753 [http-nio-auto-1-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-23 20:40:34,753 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-06-23 20:40:34,754 [http-nio-auto-1-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-06-23 20:40:34,929 [http-nio-auto-1-exec-1] INFO  c.s.c.SatelliteEventController - Received request to fetch TLE Info for satellite: STARLINK-31654
+2024-06-23 20:40:35,750 [http-nio-auto-1-exec-4] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events for satellite: STARLINK-31654
+2024-06-23 20:40:35,807 [main] INFO  com.solenix.test.ApplicationTests - EventDTOEventDTO(date=Sun Jun 23 20:40:35 CEST 2024, description=This is a new event., priority=low, satelliteName=SENTINEL-9)
+2024-06-23 20:40:35,852 [http-nio-auto-1-exec-5] ERROR c.s.c.SatelliteEventController - Missing satellite information.
+2024-06-23 20:40:35,885 [http-nio-auto-1-exec-2] INFO  c.s.c.SatelliteEventController - Received request to fetch list of events.
+2024-06-23 20:40:35,923 [http-nio-auto-1-exec-3] INFO  c.s.c.SatelliteEventController - Received request to fetch list of satellites.
+2024-06-23 20:40:37,774 [scheduling-1] INFO  c.s.service.impl.TLEServiceImpl - Completed Satellite information Update Scheduler  ####
+2024-06-23 20:40:37,779 [scheduling-1] INFO  c.s.utility.TLEInfoUpdateScheduler - Completed updateTLEInformation Job!!!! Timestamp : 2024-06-23T20:40:37.779510900
+2024-06-23 20:40:37,826 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
