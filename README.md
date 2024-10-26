@@ -1,4 +1,4 @@
-## SolenixService ##
+## SolenixService
 Service Component for Solenix to handle the service layers example RESTful service for managing satellite events.
 
 To execute this SpringBootApplication run Application.java main class, it will automatically start the application on embedded Apache Tomcat and Oracle Database
